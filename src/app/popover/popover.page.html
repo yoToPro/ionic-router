@@ -1,0 +1,14 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Popover</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <ion-list>
+    <ion-item (click)="clickItem(option)" *ngFor="let option of options">
+      <ion-icon name={{option.icon}}></ion-icon>&nbsp;&nbsp;&nbsp;
+      <ion-label>{{option.name}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

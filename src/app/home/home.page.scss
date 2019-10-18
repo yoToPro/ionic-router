@@ -1,0 +1,15 @@
+ion-content {
+	--overflow: hidden;
+
+	.main-grid {
+		height: calc(100% - 56px);
+		--ion-grid-padding: 0;
+
+		.main-row {
+			height: 100%;
+		}
+	}
+}
+ion-col {
+	--ion-grid-column-padding: 0;
+}
